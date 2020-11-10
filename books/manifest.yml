@@ -1,0 +1,7 @@
+---
+applications:
+- name: bookstore
+  path: srv/target/kora-books-exec.jar
+  random-route: true
+  services:
+  - bookstore-hana002
