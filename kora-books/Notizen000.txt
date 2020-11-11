@@ -1,0 +1,9 @@
+git clone https://hendrik_herdler@bitbucket.org/hendrik_herdler/hendrik-kora-git-test001.git    
+
+/root/kora-books
+
+/root/hendrik-kora-git-test001
+
+/root/hendrik-kora-git-test001/books 
+
+/root/kora-books/.settings
