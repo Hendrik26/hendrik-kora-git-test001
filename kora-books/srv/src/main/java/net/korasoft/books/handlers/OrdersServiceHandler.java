@@ -11,11 +11,8 @@ import com.sap.cds.services.handler.annotations.ServiceName;
 
 // import cds.gen.catalogservice.CatalogService_;
 import cds.gen.ordersservice.OrdersService_;
-// import cds.gen.ordersservice.Books;
-import cds.gen.catalogservice.Books;
-
-
- 
+// import cds.gen.catalogservice.Books;
+import cds.gen.ordersservice.Books;
 
 @Component
 @ServiceName(OrdersService_.CDS_NAME) 
