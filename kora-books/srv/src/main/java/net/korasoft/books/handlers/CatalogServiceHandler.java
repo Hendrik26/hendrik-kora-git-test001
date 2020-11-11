@@ -22,5 +22,10 @@ public class CatalogServiceHandler implements EventHandler {
 		.filter(b -> b.getStock() > 200)
 		.forEach(b -> b.setTitle(b.getTitle() + " (discounted)"));
 	}
+	
+	@After(event = CdsService.EVENT_UPDATE)
+	public void doSomething(Stream<Books> books) {
+		int y = 3;
+	}
 
 }
