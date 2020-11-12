@@ -9,5 +9,6 @@ entity Authors {
 entity Books {
   key ID : Integer;
   title  : String;
+  Author : String;
   stock  : Integer;
 }

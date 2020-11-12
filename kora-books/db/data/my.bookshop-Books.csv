@@ -1,5 +1,5 @@
-ID;title;stock
-1;Wuthering Heights;100
-2;Jane Eyre;500
-3;Goethes Faust Erster Teil;700
-4;Schiller: Die Raeuber;900
+ID;title;Author;stock
+1;Wuthering Heights;Brontee1816;100
+2;Jane Eyre;Brontee1816;500
+3;Goethes Faust Erster Teil;Goethe1749;700
+4;Schiller: Die Raeuber;Schiller1759;900
