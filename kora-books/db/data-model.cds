@@ -9,6 +9,7 @@ entity Authors {
 entity Books {
   key ID : Integer;
   title  : String;
-  Author : String;
+  AuthorID : String;
   stock  : Integer;
+  author: Association to Authors on author.ID = AuthorID;
 }
