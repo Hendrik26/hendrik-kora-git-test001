@@ -4,6 +4,7 @@ entity Authors {
   key ID : String;
   firstname : String;
   lastname : String;
+  //> books : Association to many Books on books.AuthorID = ID;
 }
 
 entity Books {
@@ -12,4 +13,5 @@ entity Books {
   AuthorID : String;
   stock  : Integer;
   author: Association to Authors on author.ID = AuthorID;
+  //> author : Association to Authors;
 }
