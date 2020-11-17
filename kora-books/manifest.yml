@@ -1,6 +1,6 @@
 ---
 applications:
-- name: bookstore
+- name: bookstore001
   path: srv/target/kora-books-exec.jar
   random-route: true
   services:
