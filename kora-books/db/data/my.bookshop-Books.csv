@@ -1,5 +1,5 @@
-ID;title;AuthorID
-1;Wuthering Heights;Brontee1816
-2;Jane Eyre;Brontee1816
-3;Goethes Faust Erster Teil;Goethe1749
-17;Schiller: Die Raeuberr017;Schiller1759
+ID;title;AuthorID;stock
+1;Wuthering Heights;Brontee1816;100
+2;Jane Eyre;Brontee1816;500
+3;Goethes Faust Erster Teil;Goethe1749;700
+15;Schiller: Die Raeuberr015;Schiller1759;900
