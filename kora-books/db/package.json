@@ -1,9 +1,10 @@
 {
-    "name": "deploy",
-    "dependencies": {
-      "@sap/hdi-deploy": "3.11.15"
-    },
-    "scripts": {
-      "start": "node node_modules/@sap/hdi-deploy/"
-    }
+  "name": "deploy",
+  "dependencies": {},
+  "scripts": {
+    "start": "node node_modules/@sap/hdi-deploy/"
+  },
+  "devDependencies": {
+    "@sap/hdi-deploy": "^3.11.15"
   }
+}
