@@ -8,7 +8,7 @@
         "file_name": "my.bookshop-Books.csv",
         "has_header": true,
         "no_data_import": false,
-        "delete_existing_foreign_data": false,
+        "delete_existing_foreign_data": true,
         "type_config": {
           "delimiter": ";"
         }
@@ -19,8 +19,7 @@
           "TITLE",
           "AUTHORID",
           "STOCK"
-        ],
-        "include_filter": [{"AUTHORID": "Schiller1759"}]
+        ]
       },
       "column_mappings": {
         "ID": "ID",
